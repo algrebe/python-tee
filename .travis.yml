@@ -14,7 +14,7 @@ before_deploy:
 deploy:
 - provider: pypi
   distributions: sdist bdist_wheel
-  server: https://testpypi.pypi.org/legacy/
+  server: https://test.pypi.org/legacy/
   skip_cleanup: true
   user: algrebe
   password:
