@@ -20,7 +20,7 @@ deploy:
   password:
     secure: "t8mVu/S72mSZ5ZCRAh6c4U0Ulxrg4ttEgd/iwGJj1I/FrcLdrq0ky9hvIs9QTcesF/G1ej8f1BWu/3ihNTwZfGPZgM6ZWrUNaaU9EQvc5tQTslg0vYKKjGwa1e1/O9OdE1GLvKdZsNatsOPlHaFRjn6zXrSkPEyZpzQYy7CLkbzDq9R4mD5bnDP0gtZtUZNPTL/tp6qg7EN3FNaYaX/1KtBccE9wzzrQWY75urx2gICtdG5CxAuDjNnW/ncYDTbcKINUjo9s9+6lBv+nfIi+lxF/WAiyh94fKBjhGcGG9/1AXPvgWoqBGUK6GCRkOsntmoyNG7HS+e0z4+qR1S+rWFvJ4kSqP3g4cdde0ZOu0vASNWkZwHY8BfL3HDGMukkzy8XanOKHO6HgRNU3VzJkayU+lqRTpso9WAXKx4F0VYZaByjoHQ2ZkfF9VMK5GJ1Tyefj81zTVc6VTMd8FzN7gvonHQe/Kq+tMIhXniOE5GaqiJyxzaK5kj0AP/KV+Vbo01noCzYxfLvmO8xonQ/tRxzsqAFqyk+mrTWukOEMkMJr6g59ifMZjoBsGv8FF5pZThFB9yWJjvpucN0N6GD/QnJVd13iidXGWOuX6J4hkiN07ewuHpgmtOa6n/EPJ3yxAXAvoFjVehqtLy62OYT8zsFUwZHnvNnrnPXebKpysJw="
   on:
-    branch: master
+    branch: test.pypi.org
     tags: false
 - provider: pypi
   distributions: sdist bdist_wheel
